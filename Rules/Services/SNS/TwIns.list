@@ -1,0 +1,11 @@
+# > Twitter
+host-suffix,pscp.tv,TwIns
+host-suffix,periscope.tv,TwIns
+host-suffix,t.co,TwIns
+host-suffix,twimg.co,TwIns
+host-suffix,twimg.com,TwIns
+host-suffix,twitter.com,TwIns
+host-suffix,twitpic.com,TwIns
+host-suffix,vine.co,TwIns
+host-keyword,twitter,TwIns
+host-keyword,instagram,TwIns
