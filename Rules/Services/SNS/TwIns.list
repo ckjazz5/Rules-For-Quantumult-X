@@ -8,4 +8,8 @@ host-suffix,twitter.com,TwIns
 host-suffix,twitpic.com,TwIns
 host-suffix,vine.co,TwIns
 host-keyword,twitter,TwIns
+
+# > Instagram
+host-suffix,cdninstagram.com,TwIns
+host-suffix,instagram.com,TwIns
 host-keyword,instagram,TwIns
