@@ -1,0 +1,20 @@
+host,global-lobby.nikke-kr.com,🎮Game
+host,cloud.nikke-kr.com,🎮Game
+host,sg-vas.intlgame.com,🎮Game
+host,aws-na-dr.intlgame.com,🎮Game
+host,data-aws-na.intlgame.com,🎮Game
+host,pc.crashsight-us.iegcom.com,🎮Game
+
+host-suffix,nikke-kr.com,🎮Game
+host-suffix,intlgame.com,🎮Game
+host-suffix,iegcom.com,🎮Game
+
+#ACE
+host,down.anticheatexpert.com,🎮Game
+host-suffix,anticheatexpert.com,🎮Game
+
+#PC NA
+host,catalog.gamepass.com,🎮Game
+host,na1.centauriglobal.com,🎮Game
+host-suffix,gamepass.com,🎮Game
+host-suffix,centauriglobal.com,🎮Game
