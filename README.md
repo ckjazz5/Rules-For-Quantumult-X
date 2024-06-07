@@ -21,7 +21,6 @@
 ![GitHub issues](https://img.shields.io/github/issues/sve1r/Rules-For-Quantumult-X?color=1E90FF&style=for-the-badge)
 ![Github Codelines](https://img.shields.io/tokei/lines/github/sve1r/Rules-For-Quantumult-X?style=for-the-badge)
 ![GitHub](https://img.shields.io/github/license/sve1r/Rules-For-Quantumult-X?style=for-the-badge)
-![Twitter URL](https://img.shields.io/twitter/url?label=Twitter&logo=Twitter&color=e85a71&style=for-the-badge&url=https%3A%2F%2Ftwitter.com%2FSveirH)
 [![](https://img.shields.io/badge/-t.me/sve1r-3db6f1?style=for-the-badge&logo=Telegram&logoColor=2ca5e0)](https://t.me/sve1r)
 <!-- PROJECT LOGO -->
 <br />
@@ -49,9 +48,15 @@
 - [3️⃣ 关于去广告](#3️⃣关于去广告)
 - [4️⃣ 规则目录](#4️⃣规则目录)
 - [5️⃣ 如何参与本项目](#5️⃣如何参与本项目)
-- [6️⃣ 来源与鸣谢](#6️⃣来源与鸣谢)
-- [7️⃣ 许可与说明](#7️⃣许可与说明)
+- [6️⃣ 项目状态](#6️⃣项目状态)
+- [7️⃣ 来源与鸣谢](#7️⃣来源与鸣谢)
+- [8️⃣ 许可与说明](#8️⃣许可与说明)
 -----
+
+# **🛠️ 仓库内容分支变更提醒**
+由于仓库内容过于久远，历史数据归档较为困难。
+已经对仓库分支结构进行切换并清理。
+如果你在使用过程中出现文件不存在等问题，请及时更新至对应内容。
 
 # **🉑 简要说明**
 
@@ -98,33 +103,44 @@
 
 ```
 3.使用 **镜像加速域名** 替换 RAW链接,以避免更新配置时出错的相关问题
+
 ```
-例如：
+使用 我无私奉献的 CDN 链接
+
+  e.g: https://rules-for-qx.sveir.xyz/文件夹/文件名.list
   
-  https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/master/Rules/Media/ForeignMedia.list 
-  
-  请将 *raw.githubusercontent.com* 替换为 *raw.sevencdn.com*
+  例如文件: https://github.com/sve1r/Rules-For-Quantumult-X/blob/develop/Rules/Services/SNS/Weibo.list
   
   替换后链接为
   
-  https://raw.sevencdn.com/sve1r/Rules-For-Quantumult-X/master/Rules/Media/ForeignMedia.list 
+  https://rules-for-qx.sveir.xyz/Rules/Services/SNS/Weibo.list
 ```
+或
+```
+使用 JsDeliver CDN 链接
 
-#### *此处鸣谢 7ed.net 提供的公共 CDN 加速服务*
+  e.g: https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@分支名/文件夹/文件名.list
+  
+  例如文件: https://github.com/sve1r/Rules-For-Quantumult-X/blob/develop/Rules/Services/SNS/Weibo.list
+  
+  替换后链接为
+  
+  https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Rules/Services/SNS/Weibo.list
+  
+```
 
 
 ### 3.推荐排序
 
 > 推荐使用的规则排序如下
 ```
-1. Unbreak.list - 用于修正 PROXY 和 REJECT 行为
-2. Advertising.list - 广告、行为分析、隐私追踪（macOS 不建议开启）
-3. Hijacking.list - 劫持（运营商、臭名昭著的诈骗网站或恶意应用）
-4. ForeignMedia.list - 国际流媒体
-5. DomesticMedia.list - 国内流媒体（可不加）
-6. Global.list - 国际网站/应用
-7. Apple.list - Apple 服务（可不加）
-9. China.list - 国内网站/应用
+1. Advertising.list - 广告、行为分析、隐私追踪（macOS 不建议开启）
+2. Hijacking.list - 劫持（运营商、臭名昭著的诈骗网站或恶意应用）
+3. ForeignMedia.list - 国际流媒体
+4. DomesticMedia.list - 国内流媒体（可不加）
+5. Global.list - 国际网站/应用
+6. Apple.list - Apple 服务（可不加）
+7. China.list - 国内网站/应用
 ```
 
 **说明**
@@ -176,7 +192,7 @@
 2. 安装并启用证书
 3. **到系统「设置 > 通用 > 关于本机」中底部的「证书信任设置」中信任所安装的证书！**
 
-#### 为什么某一些应用任然有广告
+#### 为什么某一些应用仍然有广告
 
 **1.缓存**
 
@@ -256,9 +272,10 @@ Repository
 4. 将规则推送 (`git push origin feature/AmazingFeature`)
 5. 提交合并申请 (Click `New Pull Request`)
 
+# **6️⃣项目状态**
+![Repo Status](https://repobeats.axiom.co/api/embed/1b46c1ec5df49b8bccd2de83611294a76cdf9da9.svg "Repobeats analytics image")
 
-
-# **6️⃣来源与鸣谢**
+# **7️⃣来源与鸣谢**
 - [@NobyDa](https://github.com/NobyDa/Scipts)
 - [@anti-AD V4](https://github.com/privacy-protection-tools/anti-AD)
 - [@ConnersHua](https://github.com/ConnersHua)
@@ -273,8 +290,10 @@ Repository
 - [@gkeyes](https://github.com/gkeyes)
 - [@LeeeMooo](https://github.com/LeeeMooo)
 - [@uranuswch](https://github.com/uranuswch)
+- [@ddgksf2013](https://github.com/ddgksf2013)
+- [@cherish](https://github.com/cherish)
 
-# **7️⃣许可与说明**
+# **8️⃣许可与说明**
 
 - 本项目的所有文件，README 等资源基于一个 [MIT License](LICENSE) 发布，你可以拷贝、再发行本项目的内容, 但是你将必须：
   - 使用**完全相同**的条款和格式发布。

@@ -48,7 +48,6 @@
 - [许可与说明](#7️⃣许可与说明)
 -----
 
-
 # **使用指南**
 >详细的带图指南请参考 @Shawn 提供的 [Quantumult X 不完全指南](https://www.notion.so/Quantumult-X-1d32ddc6e61c4892ad2ec5ea47f00917#bb2dce7c01114955bbdbbd222f2a5fcf)
 ### 1.配置要求
